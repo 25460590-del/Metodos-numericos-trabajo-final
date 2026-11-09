@@ -69,7 +69,7 @@ EJEMPLOS = {
     EJ_LU: {"A": [[1, 2, 3], [1, 0, 8], [2, 5, 3]], "b": [14, 25, 21]},
     EJ_GS: {"A": [[1, 10, 1], [2, 2, 10], [10, 1, 1]], "b": [13, 14, 12]},
     EJ_KR: {"A": [[4, 1, 0], [1, 3, -1], [0, 2, 5]], "b": [6, 4, 19]},
-    EJ_PIV: {"A": [[0, 2, 1], [1, 1, 1], [2, 1, 3]], "b": [4, 3, 7]},
+    EJ_PIV: {"A": [[0, 1, 1], [1, 1, 1], [1, 1, 1]], "b": [1, 1, 1]},
 }
 # Ejemplo sugerido para cada método (se preselecciona en el menú desplegable)
 EJEMPLO_POR_METODO = {M_LU: EJ_LU, M_GS: EJ_GS, M_KR: EJ_KR}
