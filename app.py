@@ -1050,7 +1050,7 @@ def generar_pdf(A, b, resultados, comparacion=None):
                color=(107, 84, 64), h=9)
     _pdf_texto(pdf, "Materia: Métodos Numéricos (AEC-1046)\n"
                     "Docente: Mtro. Ricardo Olivera Guerrero\n"
-                    "Integrantes: Karol Gabriel Cobian Zamora y Kalel Isahid Ramos Espinoza\n"
+                    "Integrantes: Karol Gabriel Cobian Zamora, Kalel Isahid Ramos Espinoza y Iker Orlando Salas Jimenes\n"
                     f"Fecha: {datetime.now().strftime('%d/%m/%Y %H:%M')}", size=10)
     pdf.ln(3)
     _pdf_texto(pdf, "Sistema a resolver", size=12, estilo="B", color=(107, 84, 64), h=7)
@@ -1227,7 +1227,7 @@ def pantalla_inicio():
     <div class='tarjeta' style='text-align:left;'>
       <p><b>📘 Materia:</b> Métodos Numéricos (AEC-1046)</p>
       <p><b>👨‍🏫 Docente:</b> Mtro. Ricardo Olivera Guerrero</p>
-      <p style='margin-bottom:0'><b>👥 Integrantes:</b> Karol Gabriel Cobian Zamora · Kalel Isahid Ramos Espinoza</p>
+      <p style='margin-bottom:0'><b>👥 Integrantes:</b> Karol Gabriel Cobian Zamora · Kalel Isahid Ramos Espinoza · Iker Orlando Salas Jiménez</p>
     </div>
     """, unsafe_allow_html=True)
     st.markdown("#### ¿Cómo usar la aplicación?")
